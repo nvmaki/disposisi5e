@@ -1,6 +1,6 @@
 <?php
-$this->load->Views('template/header');
-$this->load->Views('template/navbar');
-$this->load->Views('template/sidebar');
-$this->load->Views($content);
-$this->load->Views('template/footer');
+$this->load->View('template/header');
+$this->load->View('template/navbar');
+$this->load->View('template/sidebar');
+$this->load->View($content);
+$this->load->View('template/footer');
